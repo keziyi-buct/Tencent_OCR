@@ -55,7 +55,7 @@ class TencentOcr(object):
 def main():
     tencentOcr = TencentOcr()
     #填入指定路径下的图片
-    url = "test/身份证.png"
+    url = "身份证.png"
     print(tencentOcr.get_image_text(url, "IDCardOCR"))
 
 
